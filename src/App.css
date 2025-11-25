@@ -1,0 +1,80 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px olive;
+    border-radius: 3px;
+    font-size: 13px;
+    width: 1000px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
+
+.app H1 {
+    font-size: 120%;
+    text-align: center;
+}
+.main {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.file-list-frame {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 3px;
+    border: solid 1px gray;
+    margin: 10px;
+}
+
+.file-list-header {
+    display: flex;
+    justify-content: center;
+    font-size: 120%;
+    margin: 10px 0;
+}
+
+.file-list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    font-size: 12px;
+}
+.file:hover {
+    background-color: #eeeeee;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.file-list-footer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.file-button {
+    margin: 0 10px;
+}
+
+.player-panel {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px olive;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.piano-roll {
+}
+
+.buttons {
+    display: flex;
+    padding: 5px 10px;
+}
